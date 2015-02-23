@@ -1,0 +1,9 @@
+<h1><%= @job.name %></h1>
+
+<h2><%= @job.company_name %></h2>
+
+<p><%= @job.description %></p>
+
+<%= link_to 'Apply Here', "http://#{@job.url}" %>
+
+<%= link_to 'Browse more jobs', jobs_path %>
