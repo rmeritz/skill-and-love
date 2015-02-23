@@ -19,7 +19,6 @@ gem "uglifier"
 gem "unicorn"
 gem "i18n-tasks"
 gem 'foundation-rails'
-gem 'zurb-foundation'
 
 group :development do
   gem "spring"
