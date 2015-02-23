@@ -1,0 +1,13 @@
+development: &default
+  adapter: postgresql
+  database: skill-and-love_development
+  encoding: utf8
+  min_messages: warning
+  pool: 2
+  timeout: 5000
+  port: 5434
+  hostname: /var/run/postgresql/
+
+test:
+  <<: *default
+  database: skill-and-love_test
